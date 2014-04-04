@@ -1,0 +1,6 @@
+/node_modules
+/libs
+/i
+.bem/tmp
+desktop.bundles/*/*.*
+!desktop.bundles/*/*.bemjson.js

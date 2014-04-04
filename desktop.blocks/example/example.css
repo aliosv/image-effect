@@ -1,0 +1,53 @@
+.example .config
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+}
+
+.example .config__control
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.example .config__label,
+.example .input__label
+{
+    position: absolute;
+    width: 35%;
+}
+
+.example .config__label + .config__control,
+.example .input__label + .input__box
+{
+    position: relative;
+    left: 40%;
+    width: 60%;
+}
+
+.example .config__control_action_hide,
+.example .config__control_action_show,
+.example .config__control_action_toggle
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 4.5%;
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.example .config__control_action_toggle
+{
+    margin-right: 0;
+}
+
+.example .image-effect
+{
+    position: absolute;
+    top: 20px;
+    left: 440px;
+}

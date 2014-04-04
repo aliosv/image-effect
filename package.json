@@ -1,0 +1,24 @@
+{
+    "author": "",
+    "engines": {
+        "node": "0.6 | 0.7 | 0.8 | 0.9"
+    },
+    "dependencies": {
+        "enb": ">=0.10.0",
+        "enb-bemxjst": ">=1.1.0",
+        "enb-modules": ">=0.1.1",
+        "enb-diverse-js": ">=0.1.0",
+        "enb-roole": ">=0.1.3",
+        "enb-autoprefixer": ">=0.1.0",
+        "bower-npm-install": "0.5.4",
+        "csscomb": "~2.0.0",
+        "jshint-groups": "0.5.3",
+        "jscs": "1.0.11",
+        "git-hooks": ">=0.0.6"
+    },
+    "scripts": {
+        "install": "bower-npm-install && enb server"
+    },
+    "devDependencies": {},
+    "private": true
+}
